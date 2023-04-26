@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../Navbar";
 import Slides from "../Slides";
 import Searchbar from "../Searchbar";
-import Allcoursesbutton from "../AllCoursesbutton";
 import Displaycourses from "../Displaycourses";
 import Musicbar from "../Musicbar";
 import Statsbar from "../Statsbar";
@@ -13,7 +12,7 @@ function Homepage() {
         <Navbar/>
         <Slides/>
         <Searchbar/>
-        <Allcoursesbutton/>
+
         <Statsbar/>
         <Displaycourses/>
         <Musicbar/>

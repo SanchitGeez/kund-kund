@@ -1,8 +1,5 @@
 import React from "react";
-
- import Im1 from '../images/Slide1text.png';
- import Im2 from '../images/Slide2text.png';
- import Im3 from '../images/Slide3text.png';
+ import headimage from "../images/HeadImage_newdesign.png"
 function Slides(){
 
     // function Slideshow(){
@@ -14,7 +11,7 @@ function Slides(){
     //   };
 
     return <div className="slidebg">
-        <img src={Im1} className="slide1"></img>
+        <img src={headimage} className="slide1" alt="slide"></img>
         {/* <div className="slides">
 
             <input type="radio" name="radio-btn" id="radio1"/>
