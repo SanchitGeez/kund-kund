@@ -1,16 +1,20 @@
 import React from "react";
-import Musicicon from '../images/Musicicon.png';
-
+import Musicicon from '../images/Musicicon_newdesign.png';
+import redRectangle from "../images/redRectangle.png"
 
 function Musicbar() {
     return <div > 
+             <div className="yellow-line music-bar-line"></div>       
         <div className="musicbarbg">
+            <img src={redRectangle} alt="rect" className="red-rectangle music-rectangle"></img>
             <img src={Musicicon} alt="logohere" className="musicicon"></img>
-            <p className="musicbartxt"> 
-            भजन और पूजा संग्रह<br></br>
-            पक्तियाँ भजन पूजा गाथा श्लोक आदि ढूँढे</p>
+            <div className="musicbartxt"> 
+                <h2>भजन और पूजा संग्रह</h2>
+                <p>पक्तियाँ भजन पूजा गाथा श्लोक आदि ढूँढे</p>
+            </div>
+            <button className="musicbarbutton"> GET STARTED</button>
         </div>
-        <div className="yellow-line"></div>
+        <div className="yellow-line music-bar-line"></div>       
 
         </div>
 }

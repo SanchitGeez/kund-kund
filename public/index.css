@@ -23,10 +23,15 @@ body{
 
 .yellow-line{
     background-color: #323232;
-    height: 2px;
+    width: 70%;
+    height: 1px;
     opacity: 100%;
+    margin: 20px auto;
+    z-index: 4;
 }
-
+.music-bar-line{
+    margin: 10px auto;
+}
 .logo{
     width: 150px;
     margin-left: 80px;
@@ -53,6 +58,18 @@ body{
     font-family:AXIS,Helvetica, sans-serif;
     font-size: 15px;
 }
+.musicbarbutton{
+    color: #383838;
+    padding: 8px 20px;
+    border: 3px;
+    border: solid;
+    border-radius: 20px;
+    background: #f08f2700;
+    font-family:AXIS,Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    right: 20%;
+}
 
 .navbarmenubuttons{
     display: flex;
@@ -74,7 +91,7 @@ body{
 
 .slide1{
     width:100%;
-    height: auto;
+    height: 500;
     z-index: 2;
 }
 
@@ -132,7 +149,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 30px;
+    padding: 10px 0px;
 }
 
 
@@ -148,6 +165,9 @@ body{
     border-radius: 5px;
     border: none;
     margin-left: 0;    
+}
+.music-rectangle{
+    margin-left: 20%;
 }
 
 a{
@@ -173,24 +193,20 @@ a{
 .musicbarbg{
     display: flex;
     align-items: center;
-    background: #F5A752 ;
-    height: 120px;
-    width: 100%;
-    margin-top: 0;
-    padding: 0;
+    background: #f5a65200 ;
     position: relative;
 }
 .musicicon{
-    width: 90px;
-    margin-left: 30px;
+    width: 80px;
     align-items: center;
     position: inherit;
-    padding-left: 270px;
+    margin-left: 30px;
+    padding: 0 30px;
 
 }
 
 .musicbartxt{    
-    padding: 30px;
+    padding-left: 0 80px;
 }
 
 .statsbarbg{
@@ -204,7 +220,17 @@ a{
     position: relative;
     flex-wrap: wrap;
 }
-
+.statsbg{
+    display: flex;
+    align-items: center;
+}
+.stats-image{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 50px;
+    padding-bottom: 0;
+}
 .statsbutton{
     
     padding:10px;
@@ -222,7 +248,28 @@ a{
     
 
 }
+.red-rectangle{
 
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.displaycourses-cards{
+    display: flex;
+    margin-top: 30px;
+}
+
+.displaycourses-title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.topcourses-title-text{
+    font-size: 25px;
+    font-family:AXIS,Helvetica, sans-serif;   
+}
 .displaycourses{
     display: flex;
     align-items: center;
@@ -230,15 +277,16 @@ a{
     flex-wrap: wrap ;
     width: 100%;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 
 }
 
 .coursecarddetails{
-    background-color: #F09027;
+    background-color: #353535;
     width: 200px;
     text-align: center;
+    color: #ffffff;
     align-self: center;
     border-radius: 0 0 5px 5px;
     font-family:AXIS,Helvetica, sans-serif;
@@ -263,10 +311,13 @@ a{
     justify-content: center;
     padding: 0px;
     position: relative;
-    border: solid 3px rgb(39, 39, 39);
-    margin: 30px 50px;
+    border: none 3px rgb(39, 39, 39);
+    margin: 10px 20px;
     border-radius: 8px;
 
+}
+.coursecard img{
+    border-radius: 8px 8px 0 0;
 }
 
 

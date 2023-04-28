@@ -20,7 +20,6 @@ function Navbar() {
             
         </div>
         
-        <div className="yellow-line"></div>
     </div>
 }
 

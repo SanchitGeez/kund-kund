@@ -3,22 +3,22 @@
 const DispayCourseslist = [
     {
         img:"https://images.medindia.net/amp-images/patientinfo/spirituality-and-mental-health.jpg",
-        coursename:"Meditaion"
+        coursename:"आगम समयानुक्रमणिका"
     },
 
     {
         img:"https://news.virginia.edu/sites/default/files/article_image/va_religions_header.jpg",
-        coursename:"Prayer"
+        coursename:"तीर्थंकरों के बारे मे सब कुछ"
     },
 
     {
         img:"https://www.spiritualityandpractice.com/uploads/ecourses/images/ps-with-hindus-side.jpg    ",
-        coursename:"Chants"
+        coursename:"लघु जैन सिद्धांत प्रवेशिका"
     },
 
     {
         img:"https://d3fzplfbemxxxv.cloudfront.net/wp-content/uploads/2019/12/Jainism-Today_A-Spiritual-Way-of-Life.jpg",
-        coursename:"Focus"
+        coursename:"ग्रंथ इंडेक्स"
     },
     
     {
