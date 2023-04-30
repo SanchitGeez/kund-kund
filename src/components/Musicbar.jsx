@@ -4,7 +4,7 @@ import redRectangle from "../images/redRectangle.png"
 
 function Musicbar() {
     return <div > 
-             <div className="yellow-line music-bar-line"></div>       
+             <div className="yellow-line music-bar-line music-bar-line-top"></div>       
         <div className="musicbarbg">
             <img src={redRectangle} alt="rect" className="red-rectangle music-rectangle"></img>
             <img src={Musicicon} alt="logohere" className="musicicon"></img>
@@ -14,7 +14,7 @@ function Musicbar() {
             </div>
             <button className="musicbarbutton"> GET STARTED</button>
         </div>
-        <div className="yellow-line music-bar-line"></div>       
+        <div className="yellow-line music-bar-line music-bar-line-bottom"></div>       
 
         </div>
 }

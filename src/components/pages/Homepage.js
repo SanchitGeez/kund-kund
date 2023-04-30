@@ -6,6 +6,7 @@ import Displaycourses from "../Displaycourses";
 import Musicbar from "../Musicbar";
 import Statsbar from "../Statsbar";
 import Topcategory from "../Topcategory";
+import Footer from "../Footer";
 
 function Homepage() {
     return <div>
@@ -17,6 +18,7 @@ function Homepage() {
         <Displaycourses/>
         <Musicbar/>
         <Topcategory/>
+        <Footer/>
         
     </div>
 }
